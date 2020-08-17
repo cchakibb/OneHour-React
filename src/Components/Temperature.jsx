@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 function Temperature() {
   const [temp, setTemp] = useState(0);
-  //   const [isLoading, setIsLoading] = useState(true);
 
   const handleTemp = (event) => {
     const value = event.target.value;
